@@ -14,7 +14,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "ignores": [".config/*"],
+  "ignorePatterns": ["*.config.mjs"],
   "rules": {
     "no-console": "warn",
     "react/prop-types": "off",
